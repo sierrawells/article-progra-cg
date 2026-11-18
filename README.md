@@ -67,10 +67,7 @@ Cada tarea es una carpeta independiente con estos subdirectorios:
 
 Los datos limpios (`clean/output/`) se guardan en el repositorio. Los
 datos crudos de `clean/input/` no se suben a GitHub y se descargan de
-las fuentes listadas abajo. Por eso, en un clon nuevo, los enlaces a los
-polígonos en `replicate/input/` no apuntan a ningún archivo hasta que
-se descarga el Marco Geoestadístico 2010. Tampoco se sube el artículo de
-Anselin et al. (1996), por derechos de autor; ningún notebook lo lee.
+las fuentes listadas abajo.
 
 ## Reproducir los resultados
 

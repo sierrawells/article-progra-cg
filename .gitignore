@@ -1,0 +1,29 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Credenciales
+.env
+.secrets/
+
+# Datos crudos (se descargan de las fuentes indicadas en el README)
+clean/input/*
+!clean/input/.gitkeep
+
+# Notebooks de prueba
+replicate/src/test.ipynb
+
+# Historial de R
+.Rhistory
+
+# Artículo de referencia (con derechos de autor)
+replicate/input/anselin1996.pdf

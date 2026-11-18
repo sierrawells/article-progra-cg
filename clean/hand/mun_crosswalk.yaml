@@ -1,0 +1,76 @@
+# Municipios creados después del Censo 2010 y su municipio "padre" de 2010
+#
+# Los datos de homicidios (2018) y de OCVED usan las claves de municipio
+# vigentes en cada año, que incluyen municipios que no existían en el censo
+# 2010. Para unir esos registros con los datos del censo, cada municipio nuevo
+# se asigna al municipio de 2010 del que se separó.
+#
+# Fuente: INEGI, Archivo Histórico de Localidades Geoestadísticas,
+# https://www.inegi.org.mx/app/geo2/ahl/
+
+new_municipalities:
+  - cve_mun_new: '02006'
+    nom_mun_new: San Quintín
+    cve_mun_2010: '02001'
+    nom_mun_2010: Ensenada
+    decree: Decreto No. 46 del 27 de febrero de 2020
+  - cve_mun_new: '04012'
+    nom_mun_new: Seybaplaya
+    cve_mun_2010: '04004'
+    nom_mun_2010: Champotón
+    decree: Decreto No. 44 del 26 de abril de 2019
+  - cve_mun_new: '07120'
+    nom_mun_new: Capitán Luis Ángel Vidal
+    cve_mun_2010: '07080'
+    nom_mun_2010: Siltepec
+    decree: Decreto No. 248 del 6 de septiembre de 2017
+  - cve_mun_new: '07121'
+    nom_mun_new: Rincón Chamula San Pedro
+    cve_mun_2010: '07072'
+    nom_mun_2010: Pueblo Nuevo Solistahuacán
+    decree: Decreto No. 248 del 6 de septiembre de 2017
+  - cve_mun_new: '07122'
+    nom_mun_new: El Parral
+    cve_mun_2010: '07107'
+    nom_mun_2010: Villa Corzo
+    decree: Decreto No. 008 del 23 de noviembre de 2011
+  - cve_mun_new: '07123'
+    nom_mun_new: Emiliano Zapata
+    cve_mun_2010: '07002'
+    nom_mun_2010: Acala
+    decree: Decreto No. 008 del 23 de noviembre de 2011
+  - cve_mun_new: '07124'
+    nom_mun_new: Mezcalapa
+    cve_mun_2010: '07092'
+    nom_mun_2010: Tecpatán
+    decree: Decreto No. 008 del 23 de noviembre de 2011
+  - cve_mun_new: '07125'
+    nom_mun_new: Honduras de la Sierra
+    cve_mun_2010: '07080'
+    nom_mun_2010: Siltepec
+    decree: Decreto No. 248 del 11 de septiembre de 2019
+  - cve_mun_new: '17034'
+    nom_mun_new: Coatetelco
+    cve_mun_2010: '17015'
+    nom_mun_2010: Miacatlán
+    decree: Decreto No. 2342 del 14 de diciembre de 2017
+  - cve_mun_new: '17035'
+    nom_mun_new: Xoxocotla
+    cve_mun_2010: '17017'
+    nom_mun_2010: Puente de Ixtla
+    decree: Decreto No. 2344 del 18 de diciembre de 2017
+  - cve_mun_new: '17036'
+    nom_mun_new: Hueyapan
+    cve_mun_2010: '17022'
+    nom_mun_2010: Tetela del Volcán
+    decree: Decreto No. 2343 del 19 de diciembre de 2017
+  - cve_mun_new: '23010'
+    nom_mun_new: Bacalar
+    cve_mun_2010: '23004'
+    nom_mun_2010: Othón P. Blanco
+    decree: Decreto No. 421 del 17 de febrero de 2011
+  - cve_mun_new: '23011'
+    nom_mun_new: Puerto Morelos
+    cve_mun_2010: '23005'
+    nom_mun_2010: Benito Juárez
+    decree: Decreto No. 342 del 6 de noviembre de 2015

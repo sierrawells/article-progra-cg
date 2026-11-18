@@ -101,7 +101,9 @@ Requisitos: Python 3 con Jupyter, `numpy`, `pandas`, `pyyaml`, `pyogrio`,
    2. `2_clean_sociodem.ipynb`
    3. `3_clean_ocved.ipynb`
 3. Los enlaces simbólicos de `replicate/input/` a los datos limpios y
-   a los polígonos ya están en el repositorio. Para crear uno nuevo, desde esa
+   a los polígonos ya están en el repositorio. En un clon nuevo, los enlaces a
+   los polígonos no apuntan a ningún archivo hasta que se descarga el Marco
+   Geoestadístico 2010 (paso 1). Para crear un enlace nuevo, desde esa
    carpeta: `ln -s ../../clean/output/<archivo> .` (o
    `ln -s ../../clean/input/<archivo> .` para los polígonos).
 4. Correr el notebook `replicate/src/1_replicate.ipynb`.

@@ -19,11 +19,5 @@ Thumbs.db
 clean/input/*
 !clean/input/.gitkeep
 
-# Notebooks de prueba
-replicate/src/test.ipynb
-
 # Historial de R
 .Rhistory
-
-# Artículo de referencia (con derechos de autor)
-replicate/input/anselin1996.pdf
